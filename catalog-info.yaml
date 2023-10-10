@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "my-pod-info"
+  annotations:
+    "humanitec.com/orgId": "tobmaster"
+    "humanitec.com/appId": "my-pod-info"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
